@@ -7,7 +7,7 @@ Labyrinths is a terminal-based rogue-like game built using Python and the `curse
 
 #### Project Structure:
 1. **`game.py`**  
-   - This is the core file of the game, containing the **main game loop**. It initializes all scenes, such as the labyrinths, house scenes, and battle encounters.
+   - This is the core file of the game, containing the **main game loop**. It initializes all scenes, such as the labyrinths, house scenes, and battle scenes.
    - Includes an **unfinished save/load feature**, which will allow players to save their progress and resume later.
    - The game transitions between different scenes, manages player input, and controls the flow of the story.
 
@@ -32,7 +32,7 @@ Labyrinths is a terminal-based rogue-like game built using Python and the `curse
    - Each window allows for easy manipulation of terminal output, making it simple to manage different parts of the screen.
 
 7. **`display_windows.py`**  
-   - Extends the `Window` class to handle more complex displays like the **exit window**, **anem box window**, and **house window**.
+   - Extends the `Window` class to handle more complex displays like the **exit window**, **narration box window**, and **house window**.
    - These windows require more advanced functionality than the basic `Window` class, hence the need for this separate class hierarchy.
 
 8. **`test_project.py`**  
@@ -57,4 +57,4 @@ Labyrinths is a terminal-based rogue-like game built using Python and the `curse
 - **Enhanced Testing**: More comprehensive unit testing will be added to ensure the stability of the game’s mechanics.
 
 #### Backstory:
-The protagonist, lost in thought after receiving a letter, accidentally stumbles into a labyrinth while out for a walk in the forest. As the door behind him slams shut, he has no choice but to venture deeper into the maze, hoping to find another exit. But each labyrinth becomes more twisted, and upon finally finding an exit, he realizes something strange — it’s as if time hasn’t passed at all.
+The protagonist, lost in thought after receiving a letter, accidentally stumbles into a labyrinth while out for a walk in the forest. As the door behind him slams shut, the player has no choice but to venture deeper into the maze, hoping to find another exit. But each labyrinth becomes more twisted, and upon finally finding an exit, the player realizes something strange — it’s as if time hasn’t passed at all.
